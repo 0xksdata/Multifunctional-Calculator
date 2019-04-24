@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Triangles">
+      <UniqueIdentifier>{e0544c0d-84ec-4a2d-b808-6e7a5142f8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Circles">
+      <UniqueIdentifier>{7992ec07-f893-4444-a763-b11ab4bda9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rectangles">
+      <UniqueIdentifier>{ab1d537b-8036-437c-9dad-0f6129cb3df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Circles">
+      <UniqueIdentifier>{fd44daa0-3013-4c67-84e3-41a42acbc10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Rectangles">
+      <UniqueIdentifier>{ffe410c9-acf6-452c-940d-25d3046522ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Triangles">
+      <UniqueIdentifier>{a76d6370-0750-4438-9de1-d25773413a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cylinders">
+      <UniqueIdentifier>{d472140b-4499-42ee-acfa-c1bb5366dc41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Cylinders">
+      <UniqueIdentifier>{ce769082-151a-4349-a7d6-8c08a9a8ef6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pythagoreanTheorem.h">
+      <Filter>Header Files\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="trigSCT.h">
+      <Filter>Header Files\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="triangleGroup.h">
+      <Filter>Header Files\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangleArea.h">
+      <Filter>Header Files\Rectangles</Filter>
+    </ClInclude>
+    <ClInclude Include="circleArea.h">
+      <Filter>Header Files\Circles</Filter>
+    </ClInclude>
+    <ClInclude Include="circleGroup.h">
+      <Filter>Header Files\Circles</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangleGroup.h">
+      <Filter>Header Files\Rectangles</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinderGroup.h">
+      <Filter>Header Files\Cylinders</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinderVolume.h">
+      <Filter>Header Files\Cylinders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleTest.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="circleArea.cpp">
+      <Filter>Resource Files\Source Files\Circles</Filter>
+    </ClCompile>
+    <ClCompile Include="circleGroup.cpp">
+      <Filter>Resource Files\Source Files\Circles</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangleArea.cpp">
+      <Filter>Resource Files\Source Files\Rectangles</Filter>
+    </ClCompile>
+    <ClCompile Include="pythagoreanTheorem.cpp">
+      <Filter>Resource Files\Source Files\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="triangleGroup.cpp">
+      <Filter>Resource Files\Source Files\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="trigSCT.cpp">
+      <Filter>Resource Files\Source Files\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangleGroup.cpp">
+      <Filter>Resource Files\Source Files\Rectangles</Filter>
+    </ClCompile>
+    <ClCompile Include="cylinderGroup.cpp">
+      <Filter>Resource Files\Source Files\Cylinders</Filter>
+    </ClCompile>
+    <ClCompile Include="cylinderVolume.cpp">
+      <Filter>Resource Files\Source Files\Cylinders</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
