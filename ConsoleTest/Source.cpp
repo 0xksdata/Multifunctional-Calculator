@@ -31,7 +31,7 @@ int rectangleGroup()
 		std::cout << c4rGroup << std::flush;
 		Sleep(20);
 	}
-	// Choices above this line
+	// Choices above this line - well not really if you choose it breaks so fuck off
 	SetConsoleTextAttribute(hConsole, 6);
 	std::string title2rGroup = "Choose a number: ";
 	for (const auto c2rGroup : title2rGroup) {
